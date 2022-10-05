@@ -1,5 +1,4 @@
 import Container from "react-bootstrap/Container";
-import React from "React";
 import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
