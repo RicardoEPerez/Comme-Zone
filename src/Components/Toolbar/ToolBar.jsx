@@ -4,37 +4,8 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-// import { useEffect, useState } from "react";
-// import { firebase } from "../../firebase";
 
 const ToolBar = () => {
-  
-  // const [cDatos, setCDatos] = useState([]);
-
-  // //Consumir el api de firebase
-  // useEffect(() => {
-  //   const obtenerDatos = async () => {
-  //     try {
-  //       //Declarar la base de datos de Firebase del tipo FireStore
-  //       const db = firebase.firestore()
-  //       //Declarar y consumir la coleccion de la base de datos
-  //       const data = await db.collection("tareas").get();
-  //       //Ver los documentos de la coleccion
-  //       console.log("Datos completos de la coleccion", data.docs);
-  //       //Consumir los datos de los documentos
-  //       const arrayData = data.docs.map((doc) => ({
-  //         id: doc.id,
-  //         ...doc.data(),
-  //       }));
-  //       //Ver el contenido de los documentos
-  //       console.log("Datos extraidos", arrayData);
-  //       setCDatos(arrayData);
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   };
-  //   obtenerDatos();
-  // }, []);
 
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
