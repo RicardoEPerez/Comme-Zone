@@ -37,11 +37,11 @@ const ToolBar = () => {
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Buscar"
+              placeholder="Busca aqui"
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="dark">Buscar</Button>
+            <Button variant="secondary">Buscar</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

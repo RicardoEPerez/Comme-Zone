@@ -9,7 +9,7 @@ function Carrusel() {
           height={300}
           alt="900x500"
           className="d-block w-100"
-          src="https://i1.wp.com/www.slntechnologies.com/wp-content/uploads/2017/08/ef3-placeholder-image.jpg?ssl=1"
+          src="https://i.imgur.com/RIUC5VT.jpeg"
         />
         <Carousel.Caption>
           <h3>Placeholder 1</h3>
@@ -22,7 +22,7 @@ function Carrusel() {
           height={300}
           alt="900x500"
           className="d-block w-100"
-          src="https://i1.wp.com/www.slntechnologies.com/wp-content/uploads/2017/08/ef3-placeholder-image.jpg?ssl=1"
+          src="https://i.ytimg.com/vi/TBfWKmRFTjM/maxresdefault.jpg"
         />
         <Carousel.Caption>
           <h3>Placeholder 2</h3>
@@ -35,7 +35,7 @@ function Carrusel() {
           height={300}
           alt="900x500"
           className="d-block w-100"
-          src="https://i1.wp.com/www.slntechnologies.com/wp-content/uploads/2017/08/ef3-placeholder-image.jpg?ssl=1"
+          src="https://i.ytimg.com/vi/OFQQALduhzA/maxresdefault.jpg"
         />
         <Carousel.Caption>
           <h3>Placeholder 3</h3>
