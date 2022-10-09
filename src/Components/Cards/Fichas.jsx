@@ -1,9 +1,10 @@
+import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-function Cards() {
+function Fichas() {
   return (
-    <div>
+    <Container fluid >
       <div className="d-flex justify-content-around">
         <Card style={{ width: "15rem" }} bg="dark">
           <Card.Img
@@ -147,8 +148,8 @@ function Cards() {
           </Card.Body>
         </Card>
       </div>
-    </div>
+    </Container>
   );
 }
 
-export default Cards;
+export default Fichas;

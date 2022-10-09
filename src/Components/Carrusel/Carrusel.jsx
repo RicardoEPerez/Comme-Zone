@@ -7,8 +7,8 @@ function Carrusel() {
         <img
           width={400}
           height={300}
-          alt="900x500"
-          className="d-block w-100"
+            alt="900x500"
+            className="d-block w-100"
           src="https://i.imgur.com/RIUC5VT.jpeg"
         />
         <Carousel.Caption>
