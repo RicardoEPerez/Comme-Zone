@@ -14,7 +14,7 @@ function Join() {
         className="d-block w-100"
       />
       <div className="text-center">
-        <h1>Como uniser a Comme-Zone</h1>
+        <h1>Como unirser a Comme-Zone</h1>
       </div>
       <div>
         <p>

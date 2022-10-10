@@ -10,6 +10,7 @@ import DonSaul from "./Screen/Tiendas/Don_Saul";
 import Deporte from "./Screen/Tiendas/Deporterama";
 import Left from "./Screen/Tiendas/Leftorium";
 import Adult from "./Screen/Tiendas/Adult";
+import Detalles from "./Screen/Detalles/Detalles";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           <Route path="Left" element={<Left />} />
 
           <Route path="Adult" element={<Adult />} />
+
+          <Route path="Detalles" element={<Detalles />}/>
 
           <Route path="*" element={<Navigate replace to="/Main" />} />
         </Route>

@@ -17,8 +17,6 @@ function Formato() {
     setValidated(true);
   };
 
-
-
   return (
     <Form noValidate validated={validated} onSubmit={handleSubmit}>
       <Row className="mb-3">
@@ -85,6 +83,16 @@ function Formato() {
           </Form.Control.Feedback>
         </Form.Group>
       </Row>
+      <Row>
+        <Form.Group as={Col} md="5" controlId="validationCustom05">
+          <Form.Label>Nombre del Negocio</Form.Label>
+          <Form.Control type="text" placeholder="Pizza Muerte Lenta" required />
+          <Form.Control.Feedback type="invalid">
+            Empresa faltante o faltante
+          </Form.Control.Feedback>
+        </Form.Group>
+      </Row>
+      <Row>
       <Form.Group className="mb-3">
         <Form.Check
           required
@@ -93,9 +101,8 @@ function Formato() {
           feedbackType="invalid"
         />
       </Form.Group>
-      <Button type="submit">
-        Registrarse
-      </Button>
+      </Row>
+      <Button type="submit">Registrarse</Button>
     </Form>
   );
 }
