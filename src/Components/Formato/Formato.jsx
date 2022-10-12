@@ -93,14 +93,14 @@ function Formato() {
         </Form.Group>
       </Row>
       <Row>
-      <Form.Group className="mb-3">
-        <Form.Check
-          required
-          label="Aceptar Terminos y condiciones"
-          feedback="Debes aceptar los Terminos y condiciones."
-          feedbackType="invalid"
-        />
-      </Form.Group>
+        <Form.Group className="mb-3">
+          <Form.Check
+            required
+            label="Aceptar Terminos y condiciones"
+            feedback="Debes aceptar los Terminos y condiciones."
+            feedbackType="invalid"
+          />
+        </Form.Group>
       </Row>
       <Button type="submit">Registrarse</Button>
     </Form>
