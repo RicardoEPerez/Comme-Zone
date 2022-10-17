@@ -7,7 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { NavLink } from "react-bootstrap";
 import { Outlet, Link } from "react-router-dom";
 
-const ToolBar = () => {
+const ToolBar = (change) => {
   return (
     <>
       <br />
@@ -49,6 +49,16 @@ const ToolBar = () => {
                 Como unirse
               </Nav.Link>
             </Nav>
+            <div>
+              <Button
+                variant="secondary"
+                as={Link}
+                to={change ? "/Login" : "/Main"}
+              >
+                {change ? "Iniciar Sesión" : "Cerrar Sesion"}
+              </Button>
+            </div>
+            ­ ­
             <Form className="d-flex">
               <Form.Control
                 type="search"

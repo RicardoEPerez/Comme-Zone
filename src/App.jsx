@@ -11,6 +11,8 @@ import Deporte from "./Screen/Tiendas/Deporterama";
 import Left from "./Screen/Tiendas/Leftorium";
 import Adult from "./Screen/Tiendas/Adult";
 import Detalles from "./Screen/Detalles/Detalles";
+import Login from "./Screen/Login/Login";
+import Manejo from "./Screen/Manejo/Manejo";
 
 function App() {
   return (
@@ -29,6 +31,9 @@ function App() {
           <Route path="Adult" element={<Adult />} />
 
           <Route path="Detalles" element={<Detalles />}/>
+
+          <Route path="Login" element={<Login />}/>
+          <Route path="Manejo" element={<Manejo />}/>
 
           <Route path="*" element={<Navigate replace to="/Main" />} />
         </Route>
