@@ -35,7 +35,7 @@ function Formato3() {
           </Row>
           <Row>
             <Form.Group as={Col} ms controlId="validationCustom02">
-              <Form.Label>Descripcion</Form.Label>
+              <Form.Label>Descripcion larga</Form.Label>
               <Form.Control
                 required
                 type="text"
@@ -67,6 +67,20 @@ function Formato3() {
             <Form.Label>Imagenes</Form.Label>
             <Form.Group controlId="formFileMultiple" className="mb-3">
               <Form.Control type="file" multiple />
+            </Form.Group>
+          </Row>
+          <Row className="mb-3">
+            <Form.Group as={Col} ms controlId="validationCustom01">
+              <Form.Label>Descripcion corta</Form.Label>
+              <Form.Control
+                required
+                type="text"
+                placeholder="Esta chido compralo"
+                Value=""
+              />
+              <Form.Control.Feedback type="invalid">
+                Nombres invalido o faltante
+              </Form.Control.Feedback>
             </Form.Group>
           </Row>
         </Form>

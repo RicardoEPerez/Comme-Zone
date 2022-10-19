@@ -6,6 +6,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { NavLink } from "react-bootstrap";
 import { Outlet, Link } from "react-router-dom";
+import Logo from '../../assets/Pictures/Logos/LogoP.jpg'
+
 
 const ToolBar = (change) => {
   return (
@@ -15,7 +17,7 @@ const ToolBar = (change) => {
         <Container fluid>
           <Navbar.Brand as={Link} to="/Main">
             <img
-              src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/08c3597d-04d4-40a2-99a9-856dbc4bb772/dd7og2s-23991bd8-d914-4fcf-9271-2e8359d3f39b.jpg/v1/fill/w_250,h_250,q_70,strp/sonic_wonderbread__by_evergreenplate_dd7og2s-250t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzA4YzM1OTdkLTA0ZDQtNDBhMi05OWE5LTg1NmRiYzRiYjc3MlwvZGQ3b2cycy0yMzk5MWJkOC1kOTE0LTRmY2YtOTI3MS0yZTgzNTlkM2YzOWIuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.g-gW1zDrfsLD4_DEo9pFNI1rGk7CxbZMk2wN_giYwrI"
+              src={Logo}
               width="30"
               height="30"
               className="d-inline-block align-top"

@@ -1,9 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
-import  Deport  from "../../assets/Pictures/Carrusel/deprt.jpg";
-import Don from "../../assets/Pictures/Carrusel/Don.jpg";
-import Left from "../../assets/Pictures/Carrusel/Leftorium.jpg";
 
-function Carrusel() {
+function Carrusel2() {
   return (
     <Carousel variant="dark" fade>
       <Carousel.Item interval={1200}>
@@ -12,11 +9,11 @@ function Carrusel() {
           height={300}
             alt="900x500"
             className="d-block w-100"
-          src={Don}
+          src="https://i.imgur.com/RIUC5VT.jpeg"
         />
         <Carousel.Caption>
-          <h3>Ferreterias Don Saul</h3>
-          <p>Ferreteria y equipo industrial.</p>
+          <h3>Placeholder 1</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1200}>
@@ -25,11 +22,11 @@ function Carrusel() {
           height={300}
           alt="900x500"
           className="d-block w-100"
-          src={Deport}
+          src="https://i.ytimg.com/vi/TBfWKmRFTjM/maxresdefault.jpg"
         />
         <Carousel.Caption>
-          <h3>Deporterama</h3>
-          <p>Donde messi compro su primer balon.</p>
+          <h3>Placeholder 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1200}>
@@ -38,12 +35,12 @@ function Carrusel() {
           height={300}
           alt="900x500"
           className="d-block w-100"
-          src={Left}
+          src="https://i.ytimg.com/vi/OFQQALduhzA/maxresdefault.jpg"
         />
         <Carousel.Caption>
-          <h3>Leftorium</h3>
+          <h3>Placeholder 3</h3>
           <p>
-            Perfectirijillo amigillo surdillo.
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -51,4 +48,4 @@ function Carrusel() {
   );
 }
 
-export default Carrusel;
+export default Carrusel2;

@@ -30,7 +30,7 @@ function Manejo() {
         <thead>
           <tr>
             <th>Producto</th>
-            <th>Descripcion</th>
+            <th>Descripcion larga</th>
             <th>Stock</th>
             <th>Precio</th>
             <th>Acciones</th>

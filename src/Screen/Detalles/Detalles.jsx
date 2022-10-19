@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Col, Container, Row, Modal } from "react-bootstrap";
-import Carrusel from "../../Components/Carrusel/Carrusel";
+import Carrusel2 from "../../Components/Carrusel2/Carrusel2";
 import Formato2 from "../../Components/Formato2/Formato2";
 
 const Detalles = () => {
@@ -13,7 +13,7 @@ const Detalles = () => {
       <br />
       <Row>
         <Col sm>
-          <Carrusel />
+          <Carrusel2 />
         </Col>
         <Col sm={4}>
           <h2>Producto Placeholder</h2>
