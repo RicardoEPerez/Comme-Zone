@@ -1,13 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-
+import cristal from "../../assets/Pictures/about/aboutUs.jpg"
 const Nosotros = () => {
   return (
     <Container>
       <br />
       <div>
         <img
-          src="https://i.ytimg.com/vi/_soVzh9v7cE/maxresdefault.jpg"
+          src={cristal}
           height={300}
           width={600}
           alt=""
@@ -17,22 +17,16 @@ const Nosotros = () => {
       <br />
       <div className="text-center">
         <h1>¿Quienes somos?</h1>
-        <p>Somos una bola de weones boludos awebonados</p>
+        <p>un grupo de desarrolladores con ganas de ayudar a la pequeñas tienda especializadas</p>
         <br />
         <h2>¿Por que creamos Comme-Zone?</h2>
         <p>
-          Por que no queremos reprobar el semestre por eso hicimos este bodrio
+          Por que queremos dar un pequeño impulso a las tiendas a entrar al e-comerce
         </p>
         <br />
-        <h2>Simple Text</h2>
+        <h2>Bienvenida</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Comme-Zonne agradece que se adentre a explorar por nuestro sitio y esperamos interes por afiliacion, por su atencion gracias, sientase libre de navegar por nuestro sitio
         </p>
       </div>
     </Container>
