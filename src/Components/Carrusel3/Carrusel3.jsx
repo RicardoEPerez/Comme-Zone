@@ -1,9 +1,8 @@
 import Carousel from "react-bootstrap/Carousel";
-import  Deport  from "../../assets/Pictures/Carrusel/deprt.jpg";
-import Don from "../../assets/Pictures/Carrusel/Don.jpg";
-import Left from "../../assets/Pictures/Carrusel/Leftorium.jpg";
+import kit from "../../assets/Pictures/CarruselDS/kit.jpg"
+import pony from "../../assets/Pictures/CarruselDS/Myl.jpg"
 
-function Carrusel() {
+function Carrusel3() {
   return (
     <Carousel variant="dark" fade>
       <Carousel.Item interval={1200}>
@@ -12,11 +11,11 @@ function Carrusel() {
           height={300}
             alt="900x500"
             className="d-block w-100"
-          src={Don}
+          src={kit}
         />
-        <Carousel.Caption>
-          <h3>Ferreterias Don Saul</h3>
-          <p>Ferreteria y equipo industrial.</p>
+        <Carousel.Caption className="text-light">
+          <h3 >Kit de dados con matraca</h3>
+          <p>Importado desde alemania aprovado por nuestro amado führer.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1200}>
@@ -25,11 +24,11 @@ function Carrusel() {
           height={300}
           alt="900x500"
           className="d-block w-100"
-          src={Deport}
+          src={pony}
         />
         <Carousel.Caption>
-          <h3>Deporterama</h3>
-          <p>Donde messi compro su primer balon.</p>
+          <h3>Cinta americana</h3>
+          <p>Cinta americana de edicion especial por aniversario de My Little Pony.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1200}>
@@ -38,12 +37,12 @@ function Carrusel() {
           height={300}
           alt="900x500"
           className="d-block w-100"
-          src={Left}
+          src="https://i.ytimg.com/vi/OFQQALduhzA/maxresdefault.jpg"
         />
         <Carousel.Caption>
-          <h3>Leftorium</h3>
+          <h3>Placeholder 3</h3>
           <p>
-            Perfectirijillo amigillo surdillo.
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -51,4 +50,4 @@ function Carrusel() {
   );
 }
 
-export default Carrusel;
+export default Carrusel3;
