@@ -16,7 +16,7 @@ function Carrusel3() {
         />
         <Carousel.Caption className="text-light">
           <h3 >Kit de dados con matraca</h3>
-          <p>Importado desde alemania aprovado por nuestro amado führer.</p>
+          <p>Importado desde alemania aprobado por nuestro amado führer.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1200}>
