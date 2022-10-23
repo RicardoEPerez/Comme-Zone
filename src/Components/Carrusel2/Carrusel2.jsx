@@ -1,4 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
+import mart1 from "../../assets/Pictures/Card general/Martillo.jpg"
+import mart2 from "../../assets/Pictures/Detalles/martillos2.jpg"
+import mar3 from "../../assets/Pictures/Detalles/mart3.jpg"
 
 function Carrusel2() {
   return (
@@ -9,12 +12,8 @@ function Carrusel2() {
           height={300}
             alt="900x500"
             className="d-block w-100"
-          src="https://i.imgur.com/RIUC5VT.jpeg"
+          src={mart1}
         />
-        <Carousel.Caption>
-          <h3>Placeholder 1</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1200}>
         <img
@@ -22,12 +21,8 @@ function Carrusel2() {
           height={300}
           alt="900x500"
           className="d-block w-100"
-          src="https://i.ytimg.com/vi/TBfWKmRFTjM/maxresdefault.jpg"
+          src={mart2}
         />
-        <Carousel.Caption>
-          <h3>Placeholder 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={1200}>
         <img
@@ -35,14 +30,8 @@ function Carrusel2() {
           height={300}
           alt="900x500"
           className="d-block w-100"
-          src="https://i.ytimg.com/vi/OFQQALduhzA/maxresdefault.jpg"
+          src={mar3}
         />
-        <Carousel.Caption>
-          <h3>Placeholder 3</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );

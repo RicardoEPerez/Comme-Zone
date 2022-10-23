@@ -14,6 +14,13 @@ const Don_Saul = () => {
         <Row>
           <Col sm={3}>
             <Categorias />
+            <br />
+            <div>
+              <strong>Direccion:</strong>
+              <p>Calle 5 Sur No.1250 Col. Centro</p>
+              <strong>Numero telefonico:</strong>
+              <p>238 162 1520</p>
+            </div>
           </Col>
           <Col sm>
             <FichasT />

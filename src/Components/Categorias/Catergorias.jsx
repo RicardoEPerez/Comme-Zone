@@ -4,27 +4,29 @@ function Categorias() {
   return (
     <ListGroup>
       <ListGroup.Item variant="dark">Categorias</ListGroup.Item>
-      <ListGroup.Item  action variant="secondary">Isekai</ListGroup.Item>
       <ListGroup.Item action variant="secondary">
-        Aventura
+        Desarmadores
       </ListGroup.Item>
       <ListGroup.Item action variant="secondary">
-        Ecchi
+        Pinzas
       </ListGroup.Item>
       <ListGroup.Item action variant="secondary">
-        Mecha
+        Maquinaria
       </ListGroup.Item>
       <ListGroup.Item action variant="secondary">
-        Futanari
+        Taladros
       </ListGroup.Item>
       <ListGroup.Item action variant="secondary">
-        Shonnen
+        Ardillas
       </ListGroup.Item>
       <ListGroup.Item action variant="secondary">
-        Shoujou
+        Plomeria
       </ListGroup.Item>
       <ListGroup.Item action variant="secondary">
-        Seinen
+        Electricidad
+      </ListGroup.Item>
+      <ListGroup.Item action variant="secondary">
+        Mecanica
       </ListGroup.Item>
     </ListGroup>
   );
