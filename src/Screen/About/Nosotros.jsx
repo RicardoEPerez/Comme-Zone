@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import cristal from "../../assets/Pictures/about/aboutUs.jpg"
+
 const Nosotros = () => {
   return (
     <Container>
