@@ -1,6 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import kit from "../../assets/Pictures/CarruselDS/kit.jpg"
 import pony from "../../assets/Pictures/CarruselDS/Myl.jpg"
+import Trac from "../../assets/Pictures/CarruselDS/Tra.jpg"
 
 function Carrusel3() {
   return (
@@ -37,12 +38,12 @@ function Carrusel3() {
           height={300}
           alt="900x500"
           className="d-block w-100"
-          src="https://i.ytimg.com/vi/OFQQALduhzA/maxresdefault.jpg"
+          src={Trac}
         />
         <Carousel.Caption>
-          <h3>Placeholder 3</h3>
+          <h3>Tractor</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Tractor de uso rudo americano.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
