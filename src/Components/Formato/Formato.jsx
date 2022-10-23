@@ -22,7 +22,7 @@ function Formato() {
       <Row className="mb-3">
         <Form.Group as={Col} md="4" controlId="validationCustom01">
           <Form.Label>Nombres</Form.Label>
-          <Form.Control required type="text" placeholder="Jose Alma" Value="" />
+          <Form.Control required type="text" placeholder="Alan" Value="" />
           <Form.Control.Feedback type="invalid">
             Nombres invalido o faltante
           </Form.Control.Feedback>
@@ -32,7 +32,7 @@ function Formato() {
           <Form.Control
             required
             type="text"
-            placeholder="Marselo Chifla"
+            placeholder="Brito Delgado"
             Value=""
           />
           <Form.Control.Feedback type="invalid">
@@ -68,7 +68,7 @@ function Formato() {
           <Form.Label>Direccion</Form.Label>
           <Form.Control
             type="text"
-            placeholder="Av. Bien venida No.1"
+            placeholder="calle niño perdido sin numero"
             required
           />
           <Form.Control.Feedback type="invalid">
@@ -77,7 +77,7 @@ function Formato() {
         </Form.Group>
         <Form.Group as={Col} md="3" controlId="validationCustom05">
           <Form.Label>C.P.</Form.Label>
-          <Form.Control type="text" placeholder="66166" required />
+          <Form.Control type="text" placeholder="112" required />
           <Form.Control.Feedback type="invalid">
             Codigo postal invalida o faltante
           </Form.Control.Feedback>
@@ -86,7 +86,7 @@ function Formato() {
       <Row>
         <Form.Group as={Col} md="5" controlId="validationCustom05">
           <Form.Label>Nombre del Negocio</Form.Label>
-          <Form.Control type="text" placeholder="Pizza Muerte Lenta" required />
+          <Form.Control type="text" placeholder="Pan burrotsi" required />
           <Form.Control.Feedback type="invalid">
             Empresa faltante o faltante
           </Form.Control.Feedback>
