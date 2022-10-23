@@ -4,7 +4,7 @@ function Categorias() {
   return (
     <ListGroup>
       <ListGroup.Item variant="dark">Categorias</ListGroup.Item>
-      <ListGroup.Item variant="secondary">Isekai</ListGroup.Item>
+      <ListGroup.Item  action variant="secondary">Isekai</ListGroup.Item>
       <ListGroup.Item action variant="secondary">
         Aventura
       </ListGroup.Item>

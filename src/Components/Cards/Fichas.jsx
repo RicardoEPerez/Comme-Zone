@@ -6,8 +6,14 @@ import Martillo from "../../assets/Pictures/Card general/Martillo.jpg";
 import Desarmador from "../../assets/Pictures/Card general/Desarmador.jpeg";
 import Alicates from "../../assets/Pictures/Card general/Alicates.jpg";
 import CR7 from "../../assets/Pictures/Card general/cr7_.jpg";
+import KOYO from "../../assets/Pictures/Card general/MJ.jpeg"
+import Woods from "../../assets/Pictures/Card general/Woods.jpg"
+import taza from "../../assets/Pictures/Card general/taza.jpg"
+import boo from "../../assets/Pictures/Card general/boo_.jpg"
 
 function Fichas() {
+
+
   return (
     <Container fluid>
       <div className="d-flex justify-content-around">
@@ -58,15 +64,14 @@ function Fichas() {
             width={150}
             height={150}
             variant="top"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3F3T1yWKpPzBA4IyaojuQvdMRl3KzUskHPWZIViHh9CbikTfsXqFUIcCRYj1DQ5xjJY&usqp=CAU"
+            src={KOYO}
           />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Tennis de MJ</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Tennis usados por el afamado cantante Michael Jackson en el documental "Space Jam".
             </Card.Text>
-            <Button variant="secondary">Go somewhere</Button>
+            <Button variant="secondary">Detalles</Button>
           </Card.Body>
         </Card>
 
@@ -75,15 +80,14 @@ function Fichas() {
             width={150}
             height={150}
             variant="top"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3F3T1yWKpPzBA4IyaojuQvdMRl3KzUskHPWZIViHh9CbikTfsXqFUIcCRYj1DQ5xjJY&usqp=CAU"
+            src={Woods}
           />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>TITLEIST Select Newport 2 Putt</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Palo de golf que utilizaba Tiger Woods para luchar contra su esposa.
             </Card.Text>
-            <Button variant="secondary">Go somewhere</Button>
+            <Button variant="secondary">Detalles</Button>
           </Card.Body>
         </Card>
 
@@ -92,15 +96,14 @@ function Fichas() {
             width={150}
             height={150}
             variant="top"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3F3T1yWKpPzBA4IyaojuQvdMRl3KzUskHPWZIViHh9CbikTfsXqFUIcCRYj1DQ5xjJY&usqp=CAU"
+            src={taza}
           />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Taza para zurdos</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Pos la imagen ya lo dice :v.
             </Card.Text>
-            <Button variant="secondary">Go somewhere</Button>
+            <Button variant="secondary">Detalles</Button>
           </Card.Body>
         </Card>
 
@@ -109,15 +112,14 @@ function Fichas() {
             width={150}
             height={150}
             variant="top"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3F3T1yWKpPzBA4IyaojuQvdMRl3KzUskHPWZIViHh9CbikTfsXqFUIcCRYj1DQ5xjJY&usqp=CAU"
+            src={boo}
           />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Boomerang para zurdos</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Alch estan raros.
             </Card.Text>
-            <Button variant="secondary">Mira el producto</Button>
+            <Button variant="secondary">Detalles</Button>
           </Card.Body>
         </Card>
       </div>
