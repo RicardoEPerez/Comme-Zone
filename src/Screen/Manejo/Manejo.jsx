@@ -128,7 +128,7 @@ function Manejo() {
           variant="dark"
         >
           <Modal.Header closeButton>
-            <Modal.Title className="text-dark">Realice reservacion</Modal.Title>
+            <Modal.Title className="text-dark">Agregar producto</Modal.Title>
           </Modal.Header>
           <Modal.Body className="text-dark">
             <Formato3 />

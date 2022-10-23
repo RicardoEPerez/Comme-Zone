@@ -25,7 +25,7 @@ function Formato3() {
               <Form.Control
                 required
                 type="text"
-                placeholder="Llave nuda"
+                placeholder="Llave de presion"
                 Value=""
               />
               <Form.Control.Feedback type="invalid">
@@ -39,7 +39,7 @@ function Formato3() {
               <Form.Control
                 required
                 type="text"
-                placeholder="Llave de cabeza ancha con mango gordo y firme"
+                placeholder="Llave de presion, Ah! lo dijistes!"
                 Value=""
               />
               <Form.Control.Feedback type="invalid">
