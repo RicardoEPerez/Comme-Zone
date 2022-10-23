@@ -82,7 +82,7 @@ const Detalles = () => {
         <h5>Detalles del producto</h5>
         <br />
         <p>
-        Martillo de cabeza de acero reforzado.
+        Martillo de cabeza de acero reforzado y uña recta.
         </p>
       </div>
     </Container>
